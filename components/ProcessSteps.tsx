@@ -1,0 +1,1 @@
+export default function ProcessSteps({steps}:{steps:string[]}){return <ol className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{steps.map((s,i)=><li key={s} className="card"><span className="text-sm text-primary">STEP {i+1}</span><p className="mt-2 font-medium">{s}</p></li>)}</ol>}

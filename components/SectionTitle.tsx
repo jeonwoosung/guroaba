@@ -1,0 +1,1 @@
+export default function SectionTitle({title,desc}:{title:string;desc?:string}){return <div className="mb-8"><h2 className="text-2xl font-bold md:text-3xl">{title}</h2>{desc&&<p className="mt-2 text-slate-600">{desc}</p>}</div>}
