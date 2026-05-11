@@ -1,0 +1,1 @@
+export default function FeatureCard({icon,title,desc}:{icon:string;title:string;desc:string}){return <article className="card"><div className="text-2xl">{icon}</div><h3 className="mt-3 text-xl font-semibold">{title}</h3><p className="mt-2 text-slate-600">{desc}</p></article>}
