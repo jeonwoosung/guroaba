@@ -35,3 +35,6 @@ docker run -p 3000:3000 guroaba-site
 ## 수정 포인트
 - 연락처/주소/채널명/메뉴: `data/site.ts`
 - 치료사 실명/자격/경력: `app/team/page.tsx`
+
+## 배포 메모
+- `next.config.ts`는 Docker standalone 실행에 맞춰 `output: 'standalone'`으로 설정되어 있습니다.
